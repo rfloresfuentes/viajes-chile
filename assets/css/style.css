@@ -1,0 +1,42 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+h2 {
+  font-weight: 300;
+}
+
+.fondo_tarjeta {
+  background-color: #0bcaef;
+  color: white;
+}
+
+.header {
+  background: url(/assets/img/carousel1.jpg) no-repeat center;
+  background-size: cover;
+  /* ∫ */
+}
+
+.header .navbar {
+  background-color: transparent !important;
+}
+.logonav {
+  width: 35px;
+  height: 35px;
+}
+
+.texto-quienes-somos {
+  font-size: 17px;
+}
+.encabezado-quienes-somos {
+  background-color: #0bcaef;
+}
