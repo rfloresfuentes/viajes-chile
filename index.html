@@ -34,9 +34,9 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ms-auto mx-5">
             <a class="nav-link" aria-current="page" href="#">Inicio</a>
-            <a class="nav-link" href="#">Quiénes Somos</a>
-            <a class="nav-link" href="#">Destacados</a>
-            <a class="nav-link" href="#">Contacto</a>
+            <a class="nav-link" href="#quienes_somos">Quiénes Somos</a>
+            <a class="nav-link" href="#destacados">Destacados</a>
+            <a class="nav-link" href="#contacto">Contacto</a>
           </div>
         </div>
       </div>
@@ -67,9 +67,9 @@
     </header>
     
     <!-- Quiénes somos -->
-    <section class="pt-5 pb-5 mb-4 container-fluid d-none d-sm-block">
+    <section id="quienes_somos" class="pt-5 pb-5 mb-4 container-fluid d-none d-sm-block">
       <div>
-        <h2 class="text-center text-uppercase pb-3">¿Quiénes somos?</h2>
+        <h4 class="text-center text-uppercase pb-3">¿Quiénes somos?</h4>
       </div>  
       <div class="container row px-1 mx-auto my-4 texto-quienes-somos" id="gallery">
         <hr class="w-80 mx-auto" />
@@ -130,12 +130,9 @@
       </div>    
     </section>
 
-
-    
-
     <!-- Destacados -->
-    <section class="bg-black">
-      <h2 class="text-center text-uppercase pb-3">Destacados</h2>
+    <section id="destacados" class="bg-black">
+      <h4 class="text-center text-uppercase pb-3">Destacados</h4>
       <div class="container row px-1 mx-auto my-4" id="gallery">
         <hr class="w-80 mx-auto" />
         <div class="col-lg-4 col-xxl-3 col-md-6 mb-3 d-flex">
@@ -184,11 +181,11 @@
         </div>
       </div>
     </section>
+    
     <!-- contacto -->
-
-    <section class="bg-black container row px-1 mx-auto my-4">
+    <section id="contacto" class="bg-black container row px-1 mx-auto my-4">
       <div>
-        <h2 class="text-center text-uppercase pb-3">Contacto</h2>
+        <h4 class="text-center text-uppercase pb-3">Contacto</h4>
         <hr class="w-80 mx-auto" />
       </div>  
       <div class="mb-3">
@@ -204,6 +201,30 @@
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
       </div>
     </section>
+
+    <!-- footer -->
+    <!-- <footer class="container fondo_tarjeta">
+      <p>VIAJES CHILE</p>
+      <i class="fa-brands fa-square-github fa-4x"></i>
+      <i class="fa-brands fa-square-twitter fa-4x"></i>
+      <i class="fa-brands fa-linkedin fa-4x"></i>
+    </footer> -->
+    <footer class="bg-footer ml-5 fondo_tarjeta">
+      <div class="container-fluid ml-5">
+        <div class="d-flex flex-row justify-content-around align-items-center">
+            <!-- <h2 class="">Viajes Chile</h2> -->
+          <span>VIAJES CHILE</span>
+          <div>
+            <br>
+            <i class="fa-brands fa-github-square icono" ></i>
+            <i class="fa-brands fa-linkedin icono"></i>
+            <i class="fa-brands fa-twitter-square icono"></i>
+            <i class="fa-brands fa-facebook-square icono"></i>
+            <br><br>
+          </div>
+        </div>
+      </div>
+    </footer>
 
 
     <script 
